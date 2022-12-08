@@ -1,0 +1,146 @@
+
+
+.headerdiv{
+    display: flex;
+    overflow:hidden;
+    height: 120px;
+    background-color: rgb(240, 138, 43);
+    margin-top: 0%;  
+}
+
+.headerdiv h1{
+    color: rgb(16, 16, 16);
+    font-family:'Courier New', Courier, monospace;
+    font-weight:1;
+    font-size: 550%;
+    margin: auto;
+}
+
+.navbar{
+    margin: auto;
+    height: 40px;
+    background-color: rgb(16, 16, 16);
+    text-align: center;
+    display: flex;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 11px;
+    width: 120px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 40, 40);  
+    margin: auto;
+}
+
+.navbar a:hover{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 105%;
+    font-weight: bolder;
+    padding: 11px;
+    width: 120px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(194, 102, 56);  
+    margin: auto;
+}
+
+#selected{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-weight: bolder;
+    padding: 11px;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(240, 138, 43);  
+    margin: auto;
+}
+
+.pfp{
+    float: left;
+    width: 420px;
+    border-radius: 500px;
+    margin-left: 130px;
+    margin-right: 50px;
+    margin-top: 50px;  
+}
+
+.resume{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    width: 800px;
+}
+
+body{
+    background-image: url(images/crissxcross.png);
+    background-color: rgb(58, 58, 58);
+    
+}
+
+.generalbody {
+    position: relative;
+    float: left;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-bottom:200px;
+    color: rgb(35, 35, 35);
+    background-color: rgb(167, 167, 167);
+    width: fit-content;
+    border-radius: 20px;
+    padding: 40px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.bottom{
+    position: fixed;  
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    height: 65px;
+    width: auto;
+    background-color: rgb(240, 138, 43);
+    text-align: center;
+}
+
+.bottom p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gallery-container img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 700px;
+    height: auto;
+    overflow: hidden;
+}
+
+.biocontainer{
+    background-color:rgb(240, 138, 43);
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 20px;
+}
+
+.biocontainer p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+}
+
