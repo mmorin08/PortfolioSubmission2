@@ -61,7 +61,7 @@
 
 .pfp{
     filter: drop-shadow(0 0 1rem rgb(0, 0, 0));
-    width: 420px;
+    width: 400px;
     border-radius: 500px;
     margin-top: 60px;
     margin-left: auto;
@@ -126,6 +126,7 @@ body{
 }
 
 .gallery-container img{
+    border-radius: 25px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
     background-color:rgb(240, 138, 43);
     display: flex;
@@ -139,6 +140,7 @@ body{
 }
 
 .biocontainer{
+    border-radius: 25px;
     background-color:rgb(240, 138, 43);
     width: 700px;
     margin-left: auto;
@@ -146,6 +148,7 @@ body{
     margin-top: 60px;
     margin-bottom: 80px;
     text-align: center;
+    font-weight: bold;
     padding: 20px;
 }
 
@@ -155,6 +158,8 @@ body{
 }
 
 .gallerydescription{
+    
+    border-radius: 25px;
     font-family: 'Courier New', Courier, monospace;
     max-width: 650px;
     margin: auto;
@@ -193,5 +198,57 @@ body{
     background-color:rgb(194, 102, 56);
     color:rgb(255, 255, 255);
     font-size: 21px;
-    
+}
+
+.highschool{
+    border-radius: 25px;
+    padding: 20px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    background-color:rgb(16, 16, 16);
+    width:1600px;
+    height:600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 125px;
+    text-align: center;
+    display: flex;
+}
+
+.highschool img{
+    height:475px;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: left;
+}
+
+.highschool p{
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.games{
+    border-radius: 25px;
+    padding: 20px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    background-color:rgb(240, 138, 43);
+    width:1200px;
+    height:600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+}
+
+.games p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 35px;
+    vertical-align: middle;
 }
